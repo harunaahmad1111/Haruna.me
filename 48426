@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pot</title>
+	<link rel="stylesheet" type="text/css" href="haruna.css">
+</head>
+<body>
+	<div class="home">
+<nav>
+	<div class="menu">
+		<ul>
+			<li><a href="">HOME</a></li>
+			<li><a href="#About">ABOUT</a></li>
+			<li><a href="#service">SERVICE</a></li>
+			<li><a href="#Contact">CONTACT ME</a></li>
+		</ul>
+	</div>
+</nav>
+<div class="main">
+<h6>HELLO
+<span><h3>I'AM UG19ICT1160</h3></span>
+<span><h5>I AM A WEB DEVELOPER <br> AND A GRAPHIC DESIGNER</h5></span>
+<div class="btn">
+<button style="border-radius: 5px;" onclick="cv()">DOWNLOAD CV</button>
+<button style="border-radius: 5px;" onclick="hire()">HIRE ME</button>
+<p id="bmk"></p>
+</div>
+</h6>
+<img width="400px" style="padding-right: 10%;" src="haruna.jpg">
+</div>
+</div>
+<div id="About">
+<h1 style="padding: 10px;">About me</h1>
+</div>
+<main> My name is Haruna Ahmad Muhammad. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</main>
+<h1 style="padding: 10px;">my skills</h1>
+<h4>Web design</h4>
+<div class="Technical_skills">
+<div class="skill1">80%</div><span></span>
+</div>
+<h4>Javascript</h4>
+<div class="Technical_skills">
+<div class="skill2">39%</div> <span></span>
+</div>
+<h4>Photoshop</h4>
+<div class="Technical_skills">
+<div class="skill3">66%</div><span></span>
+</div>
+<h4>illustrator</h4>
+<div class="Technical_skills">
+<div class="skill4">70%</div> <span></span>
+</div>
+
+<div id="service">
+<h1 style="padding: 10px;">My price</h1>
+<div class="allcards">
+<div class="cards">
+	<h2>Basic</h2>
+	<ul style="padding: 30px; text-align: center; ">
+		Web design  <hr><br><br>
+		Graphics design <hr><br><br>
+		Mail Support <hr><br><br>
+		<nav style="padding: 20px; padding-left: 30%; font-size: 30px; ">NGN 1,000</nav>
+	<ul>per day</ul>
+	
+	</ul>
+	<div class="bt" >
+	<button style="margin-left: 10%; margin-bottom: 10px;">Sign up</button>
+	</div>
+</div>
+
+<div class="cards">
+	<h2>Pro</h2>
+	<ul style="padding: 30px; text-align: center;">
+		Web design  <hr><br><br>
+		Graphics design <hr><br><br>
+		Endless Support <hr><br><br>
+
+		<nav style="padding: 20px; padding-left: 30%; font-size: 30px;">NGN 25,000</nav>
+	<ul>per week</ul>
+	
+	</ul>
+	
+	<div class="bt" >
+	<button style="margin-left: 10%; margin-bottom: 10px;">Sign up</button>
+	</div>
+</div>
+
+<div class="cards">
+	<h2 style="padding: 20px; text-align: center; ">Premium</h2>
+	<div class="items">
+	<ul style="padding: 30px; text-align: center;">
+		Web design  <hr><br><br>
+		Graphics design <hr><br><br>
+		Endless Support <hr><br><br>
+
+		<nav style="padding: 20px; padding-left: 30%; font-size: 30px;">NGN 50,000</nav>
+	<ul>per month</ul>
+	
+	</ul>
+	</div>
+	
+	<div class=" bt">
+	<button style="margin-left: 10%; margin-bottom: 10px;">Sign up</button>
+	</div>
+</div>
+
+</div>
+</div>
+<div id="Contact">
+<h1 style="padding: 10px; padding-left: 5%">Contact me</h1>
+
+<div class="Contact_me">
+<div class="Contact">	
+kano,nigeria <br>	<br>	
+tel: 07044102282 <br>	<br>	
+lets get in touch,message me <br>	<br>	
+email:munkailabilal@gmail.com
+</div>
+<form>
+	<label>Name</label> <br>
+	<input type="text" name=""> <br>
+	<label>Subject</label>
+	<input type="txet" name="">
+	<label>email</label> <br>
+	<input type="email" name=""> <br>
+	<label>Message</label> <br>
+	<textarea></textarea> <br>
+	<button type="submit" style="margin-left: 50%; border-radius: 20px; margin-bottom: 20px;">Submit</button>
+	<button type="reset" style="border-radius: 20px; margin-bottom: 10px;">Clear</button>
+</form>
+</div>
+</div>
+<footer>&copy; My site All right reserved</footer>
+<script>
+	window.alert("YOU ARE WELCOME");
+
+	function cv() {
+		document.getElementById('bmk').innerHTML="NO CV TO DOWNLOAD"
+	}
+	function hire(){
+		document.getElementById('bmk').innerHTML="CONTACT ME"
+	}
+</script>
+</body>
+</html>
